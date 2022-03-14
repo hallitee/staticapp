@@ -3,13 +3,20 @@
         "rewrite": "/contact.html"
       },
     "routes":[
+
         {
             "route": "/",
-            "methods": ["POST","GET"],
+            "methods": ["POST"],
             "redirect": "/about.html"
+        },
+
+        {
+          "route": "/portfolio.html",
+          "methods": ["POST", "PUT", "PATCH"]
         }
     ],
     "globalHeaders": {
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
         "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
       },
       "mimeTypes": {
