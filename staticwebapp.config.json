@@ -7,11 +7,13 @@
  
         {
             "route": "/*",
+            "allowedRoles": ["authenticated"],
             "methods": ["POST", "GET"],
             "redirect": "/services.html"
         },
         {
             "route": "/",
+            "allowedRoles": ["authenticated"],
             "methods": ["POST","GET"],
             "redirect": "/services.html"
         },
