@@ -18,6 +18,12 @@
 </head>
 
 <body>
+    <script>
+        (async function() {
+            const { text } = await( await fetch(`/api/HttpTrigger1`)).json();
+            document.querySelector('#name').textContent = text;
+        }())
+        </script>
     <header class="header bg">
         <div class="container text-white">
             <div class="row">

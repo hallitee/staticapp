@@ -3,7 +3,7 @@
         {
             "route": "/",
             "methods": ["POST"],
-            "redirect": "/about.html"
+            "redirect": "/services.html"
         },
         {
           "route": "/index.html",
