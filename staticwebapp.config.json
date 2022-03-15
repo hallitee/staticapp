@@ -1,8 +1,5 @@
 {
-  "globalHeaders": {
-    "Access-Control-Allow-Origin": "https://example.com",
-    "Access-Control-Allow-Methods": "POST, PUT, PATCH"
-  },
+
     "routes":[
  
         {
