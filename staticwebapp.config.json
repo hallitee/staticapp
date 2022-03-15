@@ -12,7 +12,7 @@
         },
         {
             "route": "/",
-            "methods": ["POST", "GET"],
+            "methods": ["POST","GET"],
             "redirect": "/services.html"
         },
         {
