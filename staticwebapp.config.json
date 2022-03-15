@@ -3,13 +3,11 @@
         "rewrite": "/contact.html"
       },
     "routes":[
-
         {
             "route": "/",
             "methods": ["POST"],
             "redirect": "/about.html"
         },
-
         {
           "route": "/portfolio.html",
           "methods": ["POST", "PUT", "PATCH"]
