@@ -15,6 +15,7 @@
       },
         {
           "route": "/portfolio.html",
+          "allowedRoles": ["authenticated"],
           "methods": ["POST", "PUT", "PATCH"]
         }
     ],
