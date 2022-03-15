@@ -9,6 +9,11 @@
             "redirect": "/about.html"
         },
         {
+          "route": "/index.html",
+          "methods": ["POST"],
+          "redirect": "/about.html"
+      },
+        {
           "route": "/portfolio.html",
           "methods": ["POST", "PUT", "PATCH"]
         }
