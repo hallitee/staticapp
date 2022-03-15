@@ -12,7 +12,7 @@
         },
         {
             "route": "/",
-            "methods": ["POST", "GET"],
+            "methods": ["POST","GET"],
             "redirect": "/services.html"
         },
         {
@@ -20,6 +20,11 @@
           "methods": ["POST", "GET"],
           "redirect": "/blog.html"
       },
+      {
+        "route": "/contact.html",
+        "methods": ["POST", "PUT", "PATCH"],
+        "redirect": "/blog.html"
+    },
         {
           "route": "/portfolio.html",
           "allowedRoles": ["authenticated"],
